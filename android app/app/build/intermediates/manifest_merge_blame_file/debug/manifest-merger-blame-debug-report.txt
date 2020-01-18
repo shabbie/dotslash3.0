@@ -1,0 +1,63 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.android.myagoraapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\ShabbirHussain\AndroidStudioProjects\android-video-chat-demo-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\ShabbirHussain\AndroidStudioProjects\android-video-chat-demo-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\ShabbirHussain\AndroidStudioProjects\android-video-chat-demo-master\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\ShabbirHussain\AndroidStudioProjects\android-video-chat-demo-master\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->C:\Users\ShabbirHussain\AndroidStudioProjects\android-video-chat-demo-master\app\src\main\AndroidManifest.xml:6:5-71
+12-->C:\Users\ShabbirHussain\AndroidStudioProjects\android-video-chat-demo-master\app\src\main\AndroidManifest.xml:6:22-68
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\ShabbirHussain\AndroidStudioProjects\android-video-chat-demo-master\app\src\main\AndroidManifest.xml:7:5-65
+13-->C:\Users\ShabbirHussain\AndroidStudioProjects\android-video-chat-demo-master\app\src\main\AndroidManifest.xml:7:22-62
+14    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+14-->C:\Users\ShabbirHussain\AndroidStudioProjects\android-video-chat-demo-master\app\src\main\AndroidManifest.xml:8:5-80
+14-->C:\Users\ShabbirHussain\AndroidStudioProjects\android-video-chat-demo-master\app\src\main\AndroidManifest.xml:8:22-77
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->C:\Users\ShabbirHussain\AndroidStudioProjects\android-video-chat-demo-master\app\src\main\AndroidManifest.xml:9:5-79
+15-->C:\Users\ShabbirHussain\AndroidStudioProjects\android-video-chat-demo-master\app\src\main\AndroidManifest.xml:9:22-76
+16
+17    <application
+17-->C:\Users\ShabbirHussain\AndroidStudioProjects\android-video-chat-demo-master\app\src\main\AndroidManifest.xml:11:5-25:19
+18        android:allowBackup="true"
+18-->C:\Users\ShabbirHussain\AndroidStudioProjects\android-video-chat-demo-master\app\src\main\AndroidManifest.xml:12:9-35
+19        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+19-->[com.android.support:support-compat:28.0.0] C:\Users\ShabbirHussain\.gradle\caches\transforms-2\files-2.1\b73d0db3c489aeab8b531c92b0313ef9\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\ShabbirHussain\AndroidStudioProjects\android-video-chat-demo-master\app\src\main\AndroidManifest.xml:13:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\ShabbirHussain\AndroidStudioProjects\android-video-chat-demo-master\app\src\main\AndroidManifest.xml:14:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\ShabbirHussain\AndroidStudioProjects\android-video-chat-demo-master\app\src\main\AndroidManifest.xml:15:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\ShabbirHussain\AndroidStudioProjects\android-video-chat-demo-master\app\src\main\AndroidManifest.xml:16:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->C:\Users\ShabbirHussain\AndroidStudioProjects\android-video-chat-demo-master\app\src\main\AndroidManifest.xml:17:9-40
+27        <activity android:name="com.example.android.myagoraapplication.MainActivity" >
+27-->C:\Users\ShabbirHussain\AndroidStudioProjects\android-video-chat-demo-master\app\src\main\AndroidManifest.xml:18:9-24:20
+27-->C:\Users\ShabbirHussain\AndroidStudioProjects\android-video-chat-demo-master\app\src\main\AndroidManifest.xml:18:19-47
+28            <intent-filter>
+28-->C:\Users\ShabbirHussain\AndroidStudioProjects\android-video-chat-demo-master\app\src\main\AndroidManifest.xml:19:13-23:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\ShabbirHussain\AndroidStudioProjects\android-video-chat-demo-master\app\src\main\AndroidManifest.xml:20:17-69
+29-->C:\Users\ShabbirHussain\AndroidStudioProjects\android-video-chat-demo-master\app\src\main\AndroidManifest.xml:20:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\ShabbirHussain\AndroidStudioProjects\android-video-chat-demo-master\app\src\main\AndroidManifest.xml:22:17-77
+31-->C:\Users\ShabbirHussain\AndroidStudioProjects\android-video-chat-demo-master\app\src\main\AndroidManifest.xml:22:27-74
+32            </intent-filter>
+33        </activity>
+34    </application>
+35
+36</manifest>
