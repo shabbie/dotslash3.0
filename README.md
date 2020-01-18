@@ -14,4 +14,5 @@ Theme: Education
 This main objective of this project is to automate the process of generating the lecture notes of a particular lecture video.
 
 ========================================================================
+
 This repository is created for dotslash 3.0 hackathon 2020 held at SVNIT
